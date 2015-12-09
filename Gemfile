@@ -17,6 +17,9 @@ group :development, :test do
 end
 
 group :test do
+  #the following two gems were added by Nick per http://stackoverflow.com/questions/28685584/minitest-issues-ruby-on-rails
+  gem 'ruby-prof'
+  gem 'guard'
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'
